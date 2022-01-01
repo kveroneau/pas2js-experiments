@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <head>
+    <title>pas2js Terminal Test</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link href="tvision.css" rel="stylesheet"/>
+    <link href="jquery.terminal.css" rel="stylesheet"/>
+    <!-- <link rel="preload" as="script" id="resource-mycomp" data-unit="memtest" href="data:application/octet-stream;base64,b2JqZWN0IEFwcFNldHRpbmdzOiBUQXBwU2V0dGluZ3MKICBEYXRhU3RyaW5nID0gJ0ltcG9ydGVkIGZyb20gdGhlIExGTSByZXNvdXJjZSEnCiAgVVJMID0gJ2h0dHBzOi8vd3d3LnZlcm9uZWF1Lm5ldC8nCiAgRW5hYmxlID0gVHJ1ZQogIENvdW50ID0gNDIKZW5kCg==" /> //-->
+    <!-- <style> body { background-color: #000000; } </style> // -->
+    <script src="jquery-1.7.2.min.js"></script>
+    <script src="jquery.terminal-0.8.8.min.js"></script>
+    <script src="js/rtl.js"></script>
+    <script src="js/system.js"></script>
+    <script src="js/rtlconsts.js"></script>
+    <script src="js/types.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/sysutils.js"></script>
+    <script src="js/typinfo.js"></script>
+    <script src="js/simplelinkedlist.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="js/web.js"></script>
+    <script src="js/custapp.js"></script>
+    <script src="js/browserapp.js"></script>
+    <script src="js/libjquery.js"></script>
+    <script src="js/strutils.js"></script>
+    <script src="js/jsterm.js"></script>
+    <script src="js/mycomp.js"></script>
+    <script src="js/Rtl.BrowserLoadHelper.js"></script>
+    <script src="js/p2jsres.js"></script>
+    <script src="js/memtest.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/hackterm.js"></script>
+    <script src="m-xml.min.js"></script>
+    <script src="js/mxml.js"></script>
+    <script src="termtest1.js"></script>
+  </head>
+  <body>
+    <div id="screen">
+      <div class="blue window"><h1>ObjectPascal Terminal Test</h1></div>
+      <div id="terminal" class="blue window"></div>
+      <div class="white window">
+        <button id="enableterm"> Enable Terminal </button>
+      </div>
+      <div class="blue window" id="content">
+      </div>
+    </div>
+    <script> rtl.showUncaughtExceptions=true; rtl.run(); </script>
+  </body>
+</html>

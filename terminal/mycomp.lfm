@@ -1,0 +1,6 @@
+object AppSettings: TAppSettings
+  DataString = 'Imported from the LFM resource!'
+  URL = 'https://www.veroneau.net/'
+  Enable = False
+  Count = 42
+end

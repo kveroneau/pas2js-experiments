@@ -183,7 +183,7 @@ body { margin: 0; padding: 0; background: #000000; color: #ffffff; }
   left:                 1px;
 }
 
-#vt100 .ansi0               {                            }
+#vt100 .ansi0               { color:            #000000; }
 #vt100 .ansi1               { color:            #cd0000; }
 #vt100 .ansi2               { color:            #00cd00; }
 #vt100 .ansi3               { color:            #cdcd00; }
